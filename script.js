@@ -74,9 +74,9 @@ function handleCardClick(card) {
             checkWin();
         }
 	else {
-	    resetGame();
 	    level = 1;
 	    levelDisplay.innerText = `Уровень: ${level}`;
+	    resetGame();
 	}
     }
 }
